@@ -16,7 +16,79 @@ class Cart extends ChangeNotifier {
         description:
             'A secure midfoot strap is suited for scoring binges and defensive',
         imagePath: '/images/kd-treys-jpeg'),
-        Shoe(
+    Shoe(
+        name: 'Kyrie 6',
+        price: '190',
+        description:
+            'Bouncy cushioning is paired without soft yet supportive from ',
+        imagePath: '/images/kyrie-6.jpeg'),
+    Shoe(
+        name: 'KD Treys',
+        price: '240',
+        description:
+            'A secure midfoot strap is suited for scoring binges and defensive',
+        imagePath: '/images/kd-treys-jpeg'),
+    Shoe(
+        name: 'Kyrie 6',
+        price: '190',
+        description:
+            'Bouncy cushioning is paired without soft yet supportive from ',
+        imagePath: '/images/kyrie-6.jpeg'),
+    Shoe(
+        name: 'KD Treys',
+        price: '240',
+        description:
+            'A secure midfoot strap is suited for scoring binges and defensive',
+        imagePath: '/images/kd-treys-jpeg'),
+    Shoe(
+        name: 'Kyrie 6',
+        price: '190',
+        description:
+            'Bouncy cushioning is paired without soft yet supportive from ',
+        imagePath: '/images/kyrie-6.jpeg'),
+    Shoe(
+        name: 'KD Treys',
+        price: '240',
+        description:
+            'A secure midfoot strap is suited for scoring binges and defensive',
+        imagePath: '/images/kd-treys-jpeg'),
+    Shoe(
+        name: 'Kyrie 6',
+        price: '190',
+        description:
+            'Bouncy cushioning is paired without soft yet supportive from ',
+        imagePath: '/images/kyrie-6.jpeg'),
+    Shoe(
+        name: 'KD Treys',
+        price: '240',
+        description:
+            'A secure midfoot strap is suited for scoring binges and defensive',
+        imagePath: '/images/kd-treys-jpeg'),
+    Shoe(
+        name: 'Kyrie 6',
+        price: '190',
+        description:
+            'Bouncy cushioning is paired without soft yet supportive from ',
+        imagePath: '/images/kyrie-6.jpeg'),
+    Shoe(
+        name: 'KD Treys',
+        price: '240',
+        description:
+            'A secure midfoot strap is suited for scoring binges and defensive',
+        imagePath: '/images/kd-treys-jpeg'),
+    Shoe(
+        name: 'Kyrie 6',
+        price: '190',
+        description:
+            'Bouncy cushioning is paired without soft yet supportive from ',
+        imagePath: '/images/kyrie-6.jpeg'),
+    Shoe(
+        name: 'KD Treys',
+        price: '240',
+        description:
+            'A secure midfoot strap is suited for scoring binges and defensive',
+        imagePath: '/images/kd-treys-jpeg'),
+    Shoe(
         name: 'Kyrie 6',
         price: '190',
         description:
@@ -28,7 +100,7 @@ class Cart extends ChangeNotifier {
   List<Shoe> useCart = [];
 
   // get list of shoes for sale
-  List<Shoe> getShoeList () {
+  List<Shoe> getShoeList() {
     return shoeShop;
   }
 
