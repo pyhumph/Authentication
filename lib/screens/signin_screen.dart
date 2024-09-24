@@ -1,7 +1,7 @@
+import 'package:authentication/pages/intro_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:authentication/screens/Resert_Password.dart';
-import 'package:authentication/screens/home_screen.dart';
 import 'signup_screen.dart';
 
 class SigninScreen extends StatefulWidget {
@@ -123,7 +123,7 @@ class _SigninScreenState extends State<SigninScreen> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => const HomePage(),
+                              builder: (context) => const IntroPage(),
                             ),
                           );
                         },
